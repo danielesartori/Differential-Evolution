@@ -17,7 +17,7 @@ DE_rand1, DE_best1, DE_best2 have the following input:
 - objf_var: struct containing the variables used as input of the objective function to be optimize
 - objf_k: struct containing some constants used as input of the objective function to be optimize and as control for the DE optimization. These are objf_k.n_objf_perf (number of performance contributing to the evaluation of the objective function) and objf_k.df_lim (percentage limit of objective function variation for early optimization stop)
 
-As an alternative to F and CR jDE_best2 has:
+As an alternative to F and CR, jDE_best2 has:
 - Finit: initial value of scale factor
 - CRinit: initial value of crossover rate
 
@@ -27,7 +27,7 @@ DE_rand1, DE_best1, DE_best2 have the following output:
 - Xgen: matrix of the evolutions of the optimal values along the generations
 - objf_perf_min: matrix of the evolutions of the obective function and its contributions along the generations
 
-In addition jDE_best2 has:
+In addition, jDE_best2 has:
 - Fgen: evolution of scale factor along the generations
 - CRgen: evolution of crossover rate along the generations
 
